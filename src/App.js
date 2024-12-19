@@ -1,11 +1,16 @@
-import './App.css';
+import "./App.css";
+import "./components/Frame";
+import Frame from "./components/Frame";
+import SignIn from "./components/SignIn";
 
 function App() {
   return (
     <>
-    <div className='heading'>
-      hi there
-    </div>
+      <div className="signinpage">
+        <Frame />
+
+        <SignIn />
+      </div>
     </>
   );
 }
